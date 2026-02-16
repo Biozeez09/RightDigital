@@ -823,6 +823,10 @@ ul {
 
 /* MOBILE FOOTER SECTION VIEW👇 */
 
+.Mobile-footer-parent-box {
+    display: none;
+}
+
 @media (min-width:200px) and (max-width:800px) {
     .Footer-parent-box {
         display: none;
