@@ -1,0 +1,269 @@
+*{
+    border: 0px;
+    outline: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Montserrat;
+}
+
+:root {
+    --paddingparentcont: 0 4rem;
+    --paddingformobile: 0 1rem;
+}
+
+
+
+.Header-parent-box {
+    width: 100%;
+    height:12vh;
+    background:rgb(255, 255, 255);
+    padding: var(--paddingparentcont);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index:100;
+}
+
+.Header-parent-box img {
+    width:45%;
+    cursor:pointer;
+}
+
+.Menu-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Menu-box a {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    color: #010626;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.Menu-box a:hover {
+    color: #4F26B3;
+}
+
+.btn-one {
+    width: 10%;
+    background: #4F26B3;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+    animation: 0.10s ease;
+}
+.btn-top-padding {
+    margin-right:5px;
+    color:#fff;
+}
+
+.btn-one:hover {
+    transform: translateY(4px);
+}
+
+.fa-magnifying-glass:hover {
+    cursor: pointer;
+    color: #4F26B3;
+}
+
+/* <COMING SOON PAGE */
+
+
+.Coming-box {
+    width: 100%;
+    height: 80vh;
+    padding: var(--paddingparentcont);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Child-one {
+    width: 50%;
+    height: 60vh;
+    padding: 1.5rem;
+}
+
+.coming-style {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #010626;
+}
+
+.soon-paragraph {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.Child-two {
+    width: 50%;
+    height: 60vh;
+    background-image: url(./images/Gif\ 1.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: solid 1px #4F26B3;
+}
+
+
+
+/* <FOOTER SECTION DESKTOP VIEW👇> */
+
+.Footer-parent-box {
+    width: 100%;
+    height: 85vh;
+    background: #010626;
+    margin-top: 5rem;
+    padding: var(--paddingparentcont);
+    padding-top: 3rem;
+    
+}
+
+.Footer-first-content-box {
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.footer-child-one {
+    width: 25%;
+    height: 25vh;
+    color: #fff;
+}
+
+.F-about-style {
+    font-size: 0.8rem;
+    font-weight:600;
+    margin-bottom: 1rem;
+    color: #4E29B7;
+}
+
+.F-empower-style {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.F-contact-box {
+    width: 80%;
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.F-contact-box img {
+    width: 8%;
+    margin-right: 1rem;
+}
+
+.F-contact-box p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.footer-child-one h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.Footer-second-content-box {
+    width: 100%;
+    height: 28vh;
+    background: #4E29B7;
+    margin-top: 8rem;
+    border-radius: 1.5rem;
+}
+
+.F-second-child-one {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: solid 0.7px #969696;
+}
+
+.F-second-child-one img {
+    width: 15%;
+}
+
+.F-second-child-one-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    margin-left: 34rem;
+}
+
+.F-second-child-one-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.F-second-child-two {
+    width: 100%;
+    height: 11vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Developer-box {
+    width: 95%;
+    color: #fff;
+}
+
+.Developer-box b {
+    color: #010626;
+}
+
+.Developer-box p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.Developer-box a {
+    text-decoration: none;
+    color: #010626;
+    font-weight: 600;
+}
+
+.Social-icons {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    filter:invert(100%);
+
+}
+
+.Social-icons img {
+    width:30%;
+}
+
