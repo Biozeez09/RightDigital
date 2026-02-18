@@ -12,7 +12,6 @@
     --paddingformobile: 0 1rem;
 }
 
-
 .Header-parent-box {
     width: 100%;
     height:12vh;
@@ -207,7 +206,7 @@
     display:none;
 }
 
-@media (min-width:200px) and (max-width:800px) {
+@media (min-width:100px) and (max-width:900px) {
     .Header-parent-box {
         display: none;
     }
@@ -235,7 +234,7 @@
         height: 5vh;
         background: #fff;
         border-radius: 50%;
-        padding:8px;
+        padding:9px;
     
     }
 
@@ -244,15 +243,15 @@
     }
 
     .Mobile-logo {
-        width: 19%;
+        width: 20%;
     
     }
 
     .Mobile-btn {
-        width: 35%;
+        width: 40%;
         background: #fff;
         border-radius: 1.3rem;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 20px;
         color:#4F26B3;
@@ -334,9 +333,9 @@
     }
 
     .Mob-empower-style {
-       font-size: 2.5rem;
+       font-size: 2.3rem;
         font-weight: 500;
-        line-height: 45px;
+        line-height: 42px;
         color: #fff;
         margin-bottom: 1.5rem; 
     }
@@ -356,6 +355,7 @@
         background: #010626;
         padding: var(--paddingformobile);
         display:flex;
+        margin-bottom: 3rem;
         flex-direction: row;
         justify-content: center;
     }
@@ -387,14 +387,14 @@
     }
 
     .M-content-animation img {
-        width: 10%;
+        width: 12%;
     }
 
     .M-content-animation p {
-        font-size: 12px;
+        font-size: 10px;
         font-weight:400;
         line-height:23px;
-        margin-left:0.4rem;
+        margin-left:0.2rem;
         color: #fff;
     }
 }  
@@ -571,7 +571,7 @@ ul {
     display: none;
 }
 
-@media (min-width:200px) and (max-width:800px) {
+@media (min-width:100px) and (max-width:900px) {
     .Third-parent-box {
         display: none;
     }
@@ -678,7 +678,7 @@ ul {
     height: 20vh;
     background: #fff;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 1.6rem;
 }
 
 .inner4-one-single {
@@ -690,7 +690,7 @@ ul {
     height: 20vh;
     border-radius: 10px;
     background: #4E29B7;
-    padding: 2rem;
+    padding: 1.6rem;
     color: #fff;
 }
 
@@ -765,18 +765,18 @@ ul {
     display: none;
 }
 
-@media (min-width:200px) and (max-width:800px) {
+@media (min-width:100px) and (max-width:900px) {
     .Fourth-parent-box {
         display: none;
     }
 
     .Mobile-fourth-box {
         width: 100%;
-        height: 44vh;
+        height: 50vh;
         background: #010626;
         padding: var(--paddingformobile);
-        margin-top: 7rem;
-        padding-top:1rem;
+        margin-top: 9rem;
+        padding-top:2.5rem;
         display:block;
     }
 
@@ -798,10 +798,10 @@ ul {
 
     .M-fourth-inner1 {
         width: 50%;
-        height: 13vh;
+        height: 14vh;
         background:#fff;
         border-radius:8px;
-        padding: 1.1rem;
+        padding: 1rem;
     }
 
     .M-fourth-inner2 {
@@ -809,10 +809,10 @@ ul {
     }
 
     .M-threeK-style {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         font-weight: 600;
         color: #000000;
-        margin-bottom: 1.7rem;
+        margin-bottom: 1.2rem;
     }
 
     .M-success-style {
@@ -822,14 +822,14 @@ ul {
     }
 
     .M-twohundred-style {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 600;
         color: #fff;
-        margin-bottom: 1.7rem;
+        margin-bottom: 1.4rem;
     }
 
     .M-expert-style {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 600;
         color: #fff;
     }
@@ -986,7 +986,7 @@ ul {
 
 /* MOBILE FIVETH SECTION VIEW👇 */
 
-@media (min-width:200px) and (max-width:800px) {
+@media (min-width:100px) and (max-width:900px) {
     .Fiveth-parent-box {
         display:none;
     }
@@ -995,7 +995,7 @@ ul {
         width: 100%;
         height: 38vh;
         background: #fff;
-        margin-top: 3rem;
+        margin-top: 4rem;
         padding: var(--paddingformobile);
         display: flex;
         flex-direction: column;
@@ -1034,6 +1034,7 @@ ul {
         height: 6vh;
         background: #4E29B7;
         border-radius: 30px;
+        padding: 9px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1042,6 +1043,9 @@ ul {
     .M-fivethinner-1 a {
         text-decoration: none;
         color: #fff;
+        font-family: poppins;
+        font-size: 13px;
+        font-weight: 500;
     }
 
     .M-fiveth-child2 {
@@ -1156,7 +1160,7 @@ ul {
 
 /* MOBILE FIVETH SECTION VIEW👇 */
 
-@media (min-width:200px) and (max-width:800px) {
+@media (min-width:100px) and (max-width:900px) {
     .Six-parent-box  {
         display:none;
     }
@@ -1167,10 +1171,10 @@ ul {
 
     .Mobile-six-box {
         width: 100%;
-        height: 43vh;
+        height: 55vh;
         background: #cccddb;
-        padding-top: 1rem;
-        margin-top: 2rem;
+        padding:1.3rem;
+        margin-top: 4rem;
         margin-bottom: 1rem;
         display: block;
     }
@@ -1197,6 +1201,7 @@ ul {
         align-items: center;
         text-align: center;
         justify-content: center;
+       
     }
 
     .M-review{
@@ -1379,16 +1384,16 @@ ul {
 
 /* <FOOTER MOBILE SECTION VIEW👇 */
 
-@media (min-width:200px) and (max-width:800px) {
+@media (min-width:100px) and (max-width:900px) {
     .Footer-parent-box {
         display: none;
     }
 
     .Mobile-footer-parent-box {
         width: 100%;
-        height: 125vh;
+        height: 135vh;
         background: #010626;
-        margin-top:5rem;
+        margin-top:6rem;
         padding: var(--paddingformobile);
         padding-top: 3rem;
         display: block;
@@ -1419,8 +1424,8 @@ ul {
     }
 
     .Mobile-contact-box img {
-        width: 10%;
-        margin-right: 1.5rem;
+        width: 8%;
+        margin-right: 1rem;
     }
 
     .Mobile-contact-box p{
@@ -1455,119 +1460,3 @@ ul {
         font-weight: 600;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <FOOTER SECTION DESKTOP VIEW👇> */
-
-/* .Footer-container {
-    width: 100%;
-    height: 50vh;
-    background: whitesmoke;
-    display: flex;
-    gap:1rem;
-    padding: var(--paddingparentcont);
-}
-
-.footer-child-one {
-    width: 40%;
-    height: 35vh;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    padding-top: 1rem;
-}
-
-.footer-child-one img {
-    width: 40%;
-    margin-bottom: 8px;
-}
-
-.footer-child-two {
-    width: 40%;
-    height: 35vh;
-    padding-left: 2rem;
-    padding-top: 1rem;
-}
-
-.footer-child-two h3 {
-    margin-bottom: 25px;
-    padding-top: 1.3rem;
-    color: #410b80;
-}
-
-.list-cont {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 34px;
-}
-
-.footer-child-three {
-    width: 40%;
-    height: 35vh;
-    background: #fff;
-}
-
-
-
-/* FOOTER SOCIAL MEDIA CONTAINER👇
-.Social-container {
-    width:100%;
-    height: 10vh;
-    background: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.social-style {
-    display:flex;
-    justify-content: center;
-    text-align:center;
-    border-right: solid 1px #000000;
-    padding:0 1.5rem ;
-}
-
-
-.single {
-    border-right: none;
-}
-
-
-.social-style p {
-    transition: all 2s ease;
-
-}
-
-.social-style p:hover {
-    color: #8E3FF7;
-    transform: scale(1.1);
-}
-
-.Developer-container {
-    width:100%;
-    height: 10vh;
-    background: whitesmoke;
-    display: flex;
-    align-items: center;
-    border-top: solid 1px #cac8c8;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-span {
-    color:#410b80;
-} */
