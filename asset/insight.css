@@ -78,6 +78,89 @@
     color: #4F26B3;
 }
 
+.Mobile-Header-box{
+    display: none;
+}
+
+
+@media (min-width:100px) and (max-width:900px) {
+    .Header-parent-box {
+        display: none;
+    }
+    .Hero-parent-box {
+        display: none;
+    }
+    .Second-parent-box {
+        display: none;
+    }
+
+
+    .Mobile-Header-box {
+        width: 100%;
+        height: 8vh;
+        background:whitesmoke;
+        padding: var(--paddingformobile);
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Menu-box {
+        width: 12%;
+        height: 5vh;
+        background: #fff;
+        border-radius: 50%;
+        padding:9px;
+    
+    }
+
+    .Menu-box img {
+        width: 100%;
+    }
+
+    .Mobile-logo {
+        width: 20%;
+    
+    }
+
+    .Mobile-btn {
+        width: 43%;
+        background: #fff;
+        border-radius: 1.3rem;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color:#4F26B3;
+        padding: 8px 15px;
+    }
+
+    .M-drop-down {
+        position: absolute;
+        background: #4E29B7;
+        width: 100%;
+        height:400px;
+        padding: var(--paddingformobile);
+        line-height: 25px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        top: 85px;
+        z-index: 100;
+        left: 0;
+        display:none;
+    }
+
+    .M-drop-down a {
+       color:#fff;
+    }
+
+    .M-drop-down.show-meun {
+        display:flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+}
 
 /* <DESKTOP INSIGHT FIRSTH SECTION VIEW👇> */
 
@@ -152,6 +235,217 @@
 }
 
 
+/* < <MOBILE VIEW FOR INSIGHT FIRSTH SECTION VIEW👇> */
+
+.M-Hero-parent-box {
+    display: none;
+}
+
+@media (min-width:100px) and (max-width:900px) {
+    .Firsth-parent-box {
+        display: none;
+    }
+
+    .M-Hero-parent-box {
+        width: 100%;
+        height: 35vh;
+        margin-top: 1rem;
+        display: block;
+        background-image: url(./images/44694.avif);
+        opacity: 0.8;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: M-moveslide 8s step-start infinite;
+        padding: var(--paddingformobile);
+    }
+
+    .M-firsth-content-cont {
+        width: 100%;
+        height: 35vh;
+        padding-top: 4.2rem;
+    }
+
+    @keyframes M-moveslide {
+    50% {
+        transform: translate();
+        background-image: url(./images/Insight\ bg.avif);
+    }
+
+    100% {
+        transform: translate();
+        background-image: url(./images/44694.avif);
+    }
+    }
+
+    .M-insight-btn {
+        width:70%;
+        padding: 10px;
+        border-radius:16px;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: #969696;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .M-Black-style {
+        font-size: 17px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .M-Why-comptitors-style {
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+/* <MOBILE VIEW FOR INSIGHT EXPOLE SECTION VIEW👇> */
+
+.M-explore-box {
+    display: none;
+}
+
+@media (min-width:100px) and (max-width:900px) {
+    .M-explore-box {
+        width: 100%;
+        height: 30vh;
+        background:transparent;
+        margin-top: 2rem;
+        padding: var(--paddingformobile);
+        display: block;
+    }
+
+    .M-Explore-style {
+        font-size: 17px;
+        font-weight: 600;
+        padding-top: 1rem;
+        color: #010626;
+    }
+
+    .M-explore-lists {
+        margin-top: 1rem;
+        width: 100%;
+        height: 5vh;
+    }
+
+    .M-explore-lists button {
+        padding: 7.5px;
+        border-radius: 15px;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+/* <MOBILE VIEW FOR INSIGHT ADVERT CARDS SECTION VIEW👇> */
+.M-advertCard-parent-box {
+    display:none;
+}
+
+@media (min-width:100px) and (max-width:900px) {
+
+    .M-advertCard-parent-box {
+        width: 100%;
+        height: 50vh;
+        margin-top: 2rem;
+        padding: var(--paddingformobile);
+        display: block;
+    }
+
+    .M-cont-img {
+        width: 100%;
+        height: 25vh;
+        padding-top: 10px;
+        background: #4E29B7;
+        background-image: url(./images/Insight\ bg.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .M-cont-img2 {
+        width: 100%;
+        height: 25vh;
+        padding-top: 10px;
+        background: #4E29B7;
+        background-image: url(./images/insight8.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .M-cont-img3 {
+        width: 100%;
+        height: 25vh;
+        padding-top: 10px;
+        background: #4E29B7;
+        background-image: url(./images/Img5.jfif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .M-cont-img4 {
+        width: 100%;
+        height: 25vh;
+        padding-top: 10px;
+        background: #4E29B7;
+        background-image: url(./images/insight7.jfif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .M-cont-img5 {
+        width: 100%;
+        height: 25vh;
+        padding-top: 10px;
+        background: #4E29B7;
+        background-image: url(./images/insight4.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .M-Jan-style {
+        font-size: 0.9rem;
+        color: #3d3a3a;
+        margin-top: 1rem;
+    }
+
+    .M-News-heading {
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height:20px;
+        margin-top: 1rem;
+    }
+
+    .M-News-paragraphy {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #3d3a3a;
+        line-height: 18px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .M-advert-link {
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #010626;
+    }
+    
+}
+   
 /* <DESKTOP INSIGHT SECOND SECTION VIEW👇> */
 
 .Second-insight-parent-box {
@@ -386,4 +680,90 @@
 
 .Social-icons img {
     width:30%;
+}
+
+
+
+/* MOBILE FOOTER SECTION VIEW👇 */
+
+.Mobile-footer-parent-box {
+    display: none;
+}
+
+@media (min-width:200px) and (max-width:800px) {
+    .Footer-parent-box {
+        display: none;
+    }
+
+    
+    .Mobile-footer-parent-box {
+        width: 100%;
+        height: 145vh;
+        background: #010626;
+        margin-top:4rem;
+        padding: var(--paddingformobile);
+        padding-top: 3rem;
+        display: block;
+    }
+
+    .Mobile-about-style {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #4E29B7;
+    }
+
+    .Mobile-empower-style {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 23px;
+        color: #fff;
+        margin-bottom: 0.8rem;
+    }
+
+    .Mobile-contact-box {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        line-height: 35px;
+        color: #fff;
+    }
+
+    .Mobile-contact-box img {
+        width: 8%;
+        margin-right: 1rem;
+    }
+
+    .Mobile-contact-box p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .M-footer-child-two {
+        margin-top: 3rem;
+    }
+
+    .M-footer-child-two h2 {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 30px;
+        color: #fff;
+    }
+
+    .Mobile-Developer-box {
+        margin-top: 3rem;
+        line-height: 30px;
+        color: #fff;
+    }
+
+    .Mobile-Developer-box b {
+        color: #4E29B7;
+    }
+
+    .Mobile-Developer-box a {
+        color: #4E29B7;
+        text-decoration: none;
+        font-weight: 600;
+    }
 }
